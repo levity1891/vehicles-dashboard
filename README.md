@@ -1,22 +1,50 @@
-# Análisis de vehículos usados
+# Used Vehicles Dashboard
 
-Esta aplicación web fue desarrollada con Streamlit. La app permite explorar un conjunto de datos de anuncios de venta de vehículos usados. Incluye una vista previa de los datos, un histograma del kilometraje de los vehículos y un gráfico de dispersión que muestra la relación entre el kilometraje y el precio.
+## Project Overview
 
-## Funcionalidades
+This project is an interactive web application built with Streamlit to explore used vehicle listings. The dashboard allows users to preview the dataset and generate visualizations to analyze mileage distribution and the relationship between mileage and price.
 
-- Visualización inicial del dataset.
-- Histograma de la columna `odometer`.
-- Gráfico de dispersión entre `odometer` y `price`.
-- Interacción mediante casillas de verificación.
+## Business Context
 
-## Tecnologías utilizadas
+In the used vehicle market, variables such as price and mileage are important for comparing listings and identifying general market patterns. An interactive dashboard helps users explore these variables more clearly than a static table.
 
-- Python
-- pandas
-- plotly express
-- streamlit
+## Features
 
-## Ejecutar localmente
+* Dataset preview.
+* Histogram of vehicle mileage.
+* Scatter plot showing the relationship between mileage and price.
+* Interactive checkboxes to control which visualizations are displayed.
+
+## Tools Used
+
+* Python
+* pandas
+* Streamlit
+* Plotly Express
+* Render
+* GitHub
+
+## Key Learning
+
+This project helped me practice building and deploying a simple data application. It also reinforced the importance of interactive visualizations for communicating data insights to non-technical users.
+
+## Run Locally
 
 ```bash
 streamlit run app.py
+```
+
+## Live App
+
+Add live app link here.
+
+## Repository Structure
+
+```text
+vehicles-dashboard/
+├── app.py
+├── vehicles_us.csv
+├── requirements.txt
+├── README.md
+└── notebooks/
+```
